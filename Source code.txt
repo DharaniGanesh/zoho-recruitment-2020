@@ -1,0 +1,35 @@
+import java.util.*;
+import java.io.*;
+public class Demo{
+   pubic static void main(String[] args){
+   Scanner scan =new Scanner(System.in);
+   System.out.println("please enter a word:");
+    String s=scan.nextLine();
+  int len=s.length();
+  int mid=len/2;
+for(int i=1;i<=len;i+=2){
+for(int j=0;j<len-(i/2);j++){
+System.out.println(" ");
+}
+for(int j=0;j<i;j++){
+System.out.println(s.charAt[j]);
+}
+
+}
+System.out.println();
+for(int i=len;i>0;i-=2){
+for(int j=0;j<len-(i/2);j++){
+System.out.print(" ");
+}
+for(int j=0;j<i;j++){
+System.out.println(s.charAt[j]);
+}
+System.out.println("\n");
+}
+
+}
+}
+
+}
+
+}
